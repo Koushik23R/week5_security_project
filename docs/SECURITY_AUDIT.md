@@ -85,3 +85,8 @@ Run the automated checks:
 ```bash
 python -m unittest discover -s tests -v
 ```
+## 3. Verification & Execution Evidence
+
+- **Automated Unit Tests:** Full test suite execution logs are available in [`docs/TEST_RESULTS.md`](./TEST_RESULTS.md).
+- **Dynamic Exploit Runner:** Baseline exploitation simulation script is available in [`security_audit/audit_runner.py`](../security_audit/audit_runner.py).
+- **Pass Rate:** 5/5 passing unit tests (100% pass rate).
